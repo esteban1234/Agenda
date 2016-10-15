@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+
+/*------parte de la primera fila del panel administrador---------*/
+
+.panel {
+    /*border: 2px red solid;*/
+}
+
+.panelizquierda, .panelderecha {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.panelizquierda {
+    /*border: 2px red solid;*/
+}
+
+.panelderecha {
+    /*border: 2px green solid;*/
+    width: 22%;
+}
+
+.wrap {
+    /*border: 2px red solid;*/
+    width: 100%;
+    /*max-width: 75%;*/
+    /*margin:auto;*/
+}
+
+.widget {
+    width: 100%;
+    /*margin: 2em;*/
+    /*margin:32px; */
+}
+
+.widget p {
+    display: inline-block;
+    line-height: 1em;
+}
+
+.fecha {
+    font-family: Oswald, Arial;
+    text-align: center;
+    /*font-size: 1.5em;*/
+    font-size: 18px;
+    margin-bottom: 0.3125rem;
+    /*margin-bottom: 5px;*/
+    background: rgba(0, 0, 0, .5);
+    padding: 20px;
+    width: 100%;
+}
+
+.reloj {
+    /*border: 2px red solid;*/
+    font-family: Oswald, Arial;
+    /*width: 100%;*/
+    /*padding: 20px;*/
+    font-size: 130%;
+    text-align: center;
+    margin: 0;
+    background: rgba(0, 0, 0, .5);
+}
+
+.reloj .caja-segundos {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.caja-segundos {
+    /*border: 2px black solid;*/
+    margin-top: 3%;
+    padding: 0;
+    /*margin-top: 5%;*/
+}
+
+.reloj .segundos, .reloj .ampm {
+    /*border: 2px green solid;*/
+    padding: 0;
+    margin: 0;
+    font-size: 90%;
+    display: block;
+}

@@ -5,6 +5,7 @@
     <title>Login</title>
 
     <link rel="stylesheet" href="views/app/css/responsivo.css">
+
     <link rel="stylesheet" href="views/app/css/estilos.css">
     <script src="views/app/js/generales.js"></script>
     <link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css'>
@@ -35,6 +36,7 @@
     <!-- <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script> -->
     <script src="views/app/js/jquery.js"></script>
     <script src="views/app/js/goSesion.js"></script>
+
 
 
 
