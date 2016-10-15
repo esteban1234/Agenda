@@ -1,13 +1,9 @@
+@media screen and (max-width: 599px) and (min-width: 481px) {}
 
+@media screen and (max-width: 799px) and (min-width: 600px) {}
 
+@media screen and (max-width: 1023px) and (min-width: 800px) {}
 
+@media screen and (max-width: 1366px) and (min-width: 1024px) {}
 
-@media screen and (max-width: 599px) and (min-width: 481px) { }
-
-@media screen and (max-width: 799px) and (min-width: 600px) { }
-
-@media screen and (max-width: 1023px) and (min-width: 800px) { }
-
-@media screen and (max-width: 1366px) and (min-width: 1024px) { }
-
-@media screen and (min-width: 1367px) { }
+@media screen and (min-width: 1367px) {}

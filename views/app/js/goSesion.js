@@ -6,15 +6,15 @@ function goLogin(){
 	form = 'user=' +user+ '&pass=' +pass;
 	connect =  window.XMLHttpRequest ? new XMLHttpRequest() : new ActiveXObject('Microsoft.XMLHTTP');
 	connect.onreadystatechange = function(){
-		if(connect.readyState == 4 && connect.status == 200){
-			if (connect.responseText == 1){
-				location.reload();
-			}
+						if(connect.readyState == 4 && connect.status == 200){
+							if (connect.responseText == 1){
+								location.reload();
+							}
 			else{
-				__('_AJAX_LOGIN_').innerHTML = connect.responseText;
+							__('_AJAX_LOGIN_').innerHTML = connect.responseText;
 			}
 		}
-	}
+	} 
 
 	connect.open('POST','ajax.php?mode=login',true);
 	connect.setRequestHeader('Content-Type','application/x-www-form-urlencoded');
