@@ -306,6 +306,7 @@
     }
     
     #areac {
+        width: 94.5%;
         border-radius: 5px;
         box-sizing: border-box;
     }
