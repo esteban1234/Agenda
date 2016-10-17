@@ -1,16 +1,20 @@
 
 <link rel="stylesheet" href="views/app/css/estiloss.css">
+<link rel="stylesheet" href="views/app/fonts/style.css">
+<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
 <body>
 
 <article class="panel">
 
  <article class="panelizquierda">
-	<figure class="contienelogo">
+	<!-- <figure class="contienelogo">
         <img class="logo" src="views/app/images/logo.png" alt="">
-    </figure>
+    </figure> -->
     <article class="ppanel">
-       <p class="ppanel">Quantto</p>
-        <p class="ppanel2">Lista de tareas</p>
+       <!-- <p class="ppanel3">Quantto</p> -->
+        <p class="ppanel2">Agenda de Tareas</p>
     </article>
   </article>
 
@@ -41,7 +45,36 @@
 	</article>
 	</article>
 
-	<a href="?view=logout">Cerrar Sesion</a>
+	<article class="contenedor">
+
+	<article class="menu">
+
+		<nav>
+			<ul>
+				<li><a href="#"><span class="icon-list"></span>Menú</a></li>
+		</nav>
+
+	</article>
+
+		<article class="contpanel">
+
+			<article class="contpanelizqui">
+
+
+
+			</article>
+
+			<article class="contpaneldere">hola 2
+
+
+			</article>
+
+		</article>
+
+
+	</article>
+
+	<!-- <a href="?view=logout">Cerrar Sesion</a> -->
 
 	<script src="views/app/js/jquery.js"></script>
 	<script src="views/app/js/reloj.js"></script>
