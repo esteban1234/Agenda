@@ -62,11 +62,11 @@
 
 				<ul id="accordion" class="accordion">
 					<li>
-					 <li class="link"><a href="#"><i class="icon-new-message"></i>Agregar una Tarea</a><!-- <i class="icon-chevron-down"></i> --></li>
+					 <li class="link"><a href="?view=index"><i class="icon-new-message"></i>Agregar una Tarea</a><!-- <i class="icon-chevron-down"></i> --></li>
 					</li>
 
 					<li>
-					 <li class="link"><a href="#"><i class="icon-add-to-list"></i>Lista de Tareas</a><!-- <i class="icon-chevron-down"></i> --></li>
+					 <li class="link"><a href="?view=lista"><i class="icon-add-to-list"></i>Lista de Tareas</a><!-- <i class="icon-chevron-down"></i> --></li>
 					</li>
 					<li>
 					 <li class="link"><a href="?view=logout"><i class="icon-lock"></i>Cerrar Sesion</a><!-- <i class="icon-chevron-down"></i> --></li>
