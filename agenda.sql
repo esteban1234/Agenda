@@ -3,9 +3,9 @@
 -- http://www.phpmyadmin.net
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 14-10-2016 a las 16:30:50
--- Versión del servidor: 10.1.13-MariaDB
--- Versión de PHP: 5.6.23
+-- Tiempo de generación: 18-10-2016 a las 21:46:53
+-- Versión del servidor: 10.1.16-MariaDB
+-- Versión de PHP: 5.6.24
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
@@ -19,6 +19,21 @@ SET time_zone = "+00:00";
 --
 -- Base de datos: `agenda`
 --
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `agregar`
+--
+
+CREATE TABLE `agregar` (
+  `id` int(50) NOT NULL,
+  `asunto` varchar(50) NOT NULL,
+  `hora_realizarla` varchar(50) NOT NULL,
+  `fecha_alta` varchar(50) NOT NULL,
+  `fecha_realizar` varchar(50) NOT NULL,
+  `agregar_tarea` varchar(100) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 -- --------------------------------------------------------
 
@@ -37,12 +52,19 @@ CREATE TABLE `usuario` (
 --
 
 INSERT INTO `usuario` (`id`, `usuario`, `contrasena`) VALUES
-(1, 'Juan', '1234'),
-(2, 'pedro', '1234');
+(2, 'Esteban', 'c0784027b45aa11e848a38e890f8416c'),
+(3, 'Noel', '1dd4ecb6f7f0091bc464fee9b9202d59'),
+(4, 'Mario', 'f258eb4930b98dfd0ac6c30008c7506b');
 
 --
 -- Índices para tablas volcadas
 --
+
+--
+-- Indices de la tabla `agregar`
+--
+ALTER TABLE `agregar`
+  ADD PRIMARY KEY (`id`);
 
 --
 -- Indices de la tabla `usuario`
@@ -55,10 +77,15 @@ ALTER TABLE `usuario`
 --
 
 --
+-- AUTO_INCREMENT de la tabla `agregar`
+--
+ALTER TABLE `agregar`
+  MODIFY `id` int(50) NOT NULL AUTO_INCREMENT;
+--
 -- AUTO_INCREMENT de la tabla `usuario`
 --
 ALTER TABLE `usuario`
-  MODIFY `id` int(4) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` int(4) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
