@@ -85,6 +85,76 @@
 			<form class="formdos" 	action="" method="POST">
 				<h1 class="agregal">Lista de tareas</h1>
 
+				 <table>
+            <thead>
+                <tr>
+                    <th>
+                        Asunto
+                    </th>
+                    <th>
+                        Hora a realizar
+                    </th>
+                    <th>
+                        Fecha de alta
+                    </th>
+                    <th>
+                        Fecha a realizar
+                    </th>
+                    <th>
+                        Tarea
+                    </th>
+                    <th>
+                        Acciones
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        Cita con noel
+                    </td>
+                    <td>
+                        05:55:55 pm
+                    </td>
+                    <td>
+                        20/10/2016
+                    </td>
+                    <td>
+                        20/10/2016
+                    </td>
+                    <td>
+                        Revisar las correciones del sistema quantto
+                    </td>
+                    <td>
+                        modificar / eliminar
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Cita con carolina
+                    </td>
+                    <td>
+                        05:55:55 pm
+                    </td>
+                    <td>
+                        20/10/2016
+                    </td>
+                    <td>
+                        20/10/2016
+                    </td>
+                    <td>
+                        Revisar los formatos de los contratos de los clientes
+                    </td>
+                    <td>
+                        modificar / eliminar
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+
+
+
 			</form>
 
 

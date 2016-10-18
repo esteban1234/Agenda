@@ -1,9 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+
+
 <title>Agregar Tarea</title>
 <link rel="stylesheet" href="views/app/css/estiloss.css">
 <link rel="stylesheet" href="views/app/fonts/style.css">
 <link href="https://fonts.googleapis.com/css?family=Oswald|Roboto" rel="stylesheet">
 <!-- <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> -->
-
+</head>
 <body>
 
 <article class="panel">
@@ -122,7 +128,7 @@
    				</div> <br>
 
    				<label class="ema">Agrega tu tarea:</label><br>
-				    <textarea id="areac" class="emai"  name="textarea" rows="" cols="" placeholder="Escríbe tu tarea" required/></textarea><br>
+				    <textarea id="areac" class="emai"  name="textarea" rows="" cols="" placeholder="Escríbe tu tarea breve" required/></textarea><br>
 				    <!-- <input  id="enviar2" class="enviar" type="submit" value="AGREGAR"> -->
 				    <!-- <button>Hover Me</button> -->
 				    <button class="button" style="vertical-align:middle"><span>Agregar</span></button>
@@ -144,3 +150,4 @@
 	<script src="views/app/js/reloj.js"></script>
     <!-- <script src="views/app/js/main.js"></script> -->
 </body>
+</html>
