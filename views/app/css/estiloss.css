@@ -355,3 +355,17 @@
         opacity: 1;
         right: 0;
     }
+    /*-------------------lista de tareas-----------*/
+    
+    .formdos {
+        /*border: 2px red solid;*/
+    }
+    
+    .agregal {
+        /*border: 2px black solid;*/
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        font-size: 25px;
+        margin-bottom: 5%;
+        margin-top: 5%;
+    }

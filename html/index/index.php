@@ -1,4 +1,4 @@
-
+<title>Agregar Tarea</title>
 <link rel="stylesheet" href="views/app/css/estiloss.css">
 <link rel="stylesheet" href="views/app/fonts/style.css">
 <link href="https://fonts.googleapis.com/css?family=Oswald|Roboto" rel="stylesheet">
