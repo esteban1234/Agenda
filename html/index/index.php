@@ -6,9 +6,11 @@
 <link rel="stylesheet" href="views/app/css/estiloss.css">
 <link rel="stylesheet" href="views/app/fonts/style.css">
 <link href="https://fonts.googleapis.com/css?family=Oswald|Roboto" rel="stylesheet">
+<!-- <?php include "core/bin/ajax/goRegistroTarea.php";?> -->
 <!-- <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> -->
 </head>
 <body>
+
 
 <article class="panel">
 
@@ -83,7 +85,7 @@
 
 			<article class="contpaneldere">
 
-			<form class="formuno" 	action="" method="POST">
+			<form class="formuno" 	action="core/bin/ajax/goRegistroTarea.php" method="POST">
 				<h1 class="agrega">Agrega una nueva tarea</h1>
 				<!-- <div class="dos">
 						<label class="ema">Fecha</label><br>
@@ -111,7 +113,7 @@
 			        </div>
 			        <div class="der">
 			           <label class="ema">Hora a realizarla:</label><br>
-			           <input class="emai" type="time" name="hora" value="" max="" min="" step="1">
+			           <input class="emai" type="time" name="hora_realizarla" value="" max="" min="" step="1">
 			        </div>
    				</div> <br>
 
@@ -127,7 +129,7 @@
    				</div> <br>
 
    				<label class="ema">Agrega tu tarea:</label><br>
-				    <textarea id="areac" class="emai"  name="textarea" rows="" cols="" placeholder="Escríbe tu tarea breve" required/></textarea><br>
+				    <textarea id="areac" class="emai"  name="agregar_tarea" rows="" cols="" placeholder="Escríbe tu tarea breve" required/></textarea><br>
 				    <!-- <input  id="enviar2" class="enviar" type="submit" value="AGREGAR"> -->
 				    <!-- <button>Hover Me</button> -->
 				    <button class="button" style="vertical-align:middle"><span>Agregar</span></button>
