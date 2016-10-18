@@ -1,26 +1,13 @@
 <!DOCTYPE html>
-<<<<<<< HEAD
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-
-=======
-<html>
-  <head>
-    <meta charset="UTF-8">
-    <title>Login</title>
->>>>>>> santy
-
 <title>Agregar Tarea</title>
 <link rel="stylesheet" href="views/app/css/estiloss.css">
 <link rel="stylesheet" href="views/app/fonts/style.css">
 <link href="https://fonts.googleapis.com/css?family=Oswald|Roboto" rel="stylesheet">
 <!-- <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> -->
-<<<<<<< HEAD
 </head>
-=======
-<head>
->>>>>>> santy
 <body>
 
 <article class="panel">
@@ -77,7 +64,7 @@
 
 			<article class="contpanelizqui">
         <div class="">
-          <p class="bien">Bienvenido <strong><?= $users[$_SESSION['app_id']]['user']?></strong></p>
+          <p class="bienid">Bienvenido <strong ><?=$users[$_SESSION['app_id']]['user']?></strong></p>
         </div>
 				<ul id="accordion" class="accordion">
 					<li>
@@ -106,7 +93,7 @@
 			        <div class="izq">
 			            <label class="ema">Asunto:</label><br>
 			            <!-- <input class="emai" type="select" name="correo" size="30" maxlength="40" placeholder= "ejemplo@correo.com" required/> -->
-			            <input class="emai" name="" placeholder="Escoja su Asunto" required list="listaasunto">
+			            <input class="emai" name="asunto" placeholder="Escoja su Asunto" required list="listaasunto">
 
 						<datalist id="listaasunto">
 						  <option value="Cita con Marcelo">
@@ -131,11 +118,11 @@
    				<div id="cote">
 			        <div class="izq">
 			            <label class="ema">Fecha de alta:</label><br>
-			            <input type="date" class="emai" value="<?=date("Y-m-d");?>" required/>
+			            <input type="date" name="fecha_alta" class="emai" value="<?=date("Y-m-d");?>" required/>
 			        </div>
 			        <div class="der">
 			           <label class="ema">Fecha a realizar:</label><br>
-			           <input type="date" class="emai" required/>
+			           <input type="date" class="emai" name="fecha_realizar" required/>
 			        </div>
    				</div> <br>
 
@@ -162,8 +149,4 @@
 	<script src="views/app/js/reloj.js"></script>
     <!-- <script src="views/app/js/main.js"></script> -->
 </body>
-<<<<<<< HEAD
 </html>
-=======
-<html>
->>>>>>> santy

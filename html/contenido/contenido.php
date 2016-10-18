@@ -64,6 +64,9 @@
 		<article class="contpanel">
 
 			<article class="contpanelizqui">
+			 <div class="">
+          <p class="bienid">Bienvenido <strong><?=$users[$_SESSION['app_id']]['user']?></strong></p>
+        </div>
 
 				<ul id="accordion" class="accordion">
 					<li>
