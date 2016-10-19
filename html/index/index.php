@@ -6,8 +6,7 @@
 <link rel="stylesheet" href="views/app/css/estiloss.css">
 <link rel="stylesheet" href="views/app/fonts/style.css">
 <link href="https://fonts.googleapis.com/css?family=Oswald|Roboto" rel="stylesheet">
-<!-- <?php include "core/bin/ajax/goRegistroTarea.php";?> -->
-<!-- <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> -->
+<script src="views/app/js/generales.js"></script>
 </head>
 <body>
 
@@ -15,9 +14,10 @@
 <article class="panel">
 
  <article class="panelizquierda">
-	<!-- <figure class="contienelogo">
+	<figure class="contienelogo">
         <img class="logo" src="views/app/images/logo.png" alt="">
-    </figure> -->
+
+    </figure>
     <article class="ppanel">
        <!-- <p class="ppanel3">Quantto</p> -->
         <p class="ppanel2">Agenda de Tareas</p>
@@ -85,17 +85,21 @@
 
 			<article class="contpaneldere">
 
-			<form class="formuno" 	action="core/bin/ajax/goRegistroTarea.php" method="POST">
+			<form class="formuno" 	action="" method="POST">
+				<div id="_AJAX_REG_"></div><br><br>
 				<h1 class="agrega">Agrega una nueva tarea</h1>
-				<!-- <div class="dos">
+				<div class="dos">
 						<label class="ema">Fecha</label><br>
-			    </div> -->
+
+
+			    </div>
 
 			    <div id="cote">
 			        <div class="izq">
 			            <label class="ema">Asunto:</label><br>
 			            <!-- <input class="emai" type="select" name="correo" size="30" maxlength="40" placeholder= "ejemplo@correo.com" required/> -->
-			            <input class="emai" name="asunto" placeholder="Escoja su Asunto" required list="listaasunto">
+			            <!-- viejo, a que hora sakes? -->
+			            <input class="emai" id="asunto" placeholder="Escoja su Asunto"  list="listaasunto">
 
 						<datalist id="listaasunto">
 						  <option value="Cita con Marcelo">
@@ -113,26 +117,26 @@
 			        </div>
 			        <div class="der">
 			           <label class="ema">Hora a realizarla:</label><br>
-			           <input class="emai" type="time" name="hora_realizarla" value="" max="" min="" step="1">
+			           <input class="emai" type="time" id="hora_realizarla" value="" max="" min="" step="1">
 			        </div>
    				</div> <br>
 
    				<div id="cote">
 			        <div class="izq">
 			            <label class="ema">Fecha de alta:</label><br>
-			            <input type="date" name="fecha_alta" class="emai" value="<?=date("Y-m-d");?>" required/>
+			            <input type="date" id="fecha_alta" class="emai" value="<?=date("Y-m-d");?>">
 			        </div>
 			        <div class="der">
 			           <label class="ema">Fecha a realizar:</label><br>
-			           <input type="date" class="emai" name="fecha_realizar" required/>
+			           <input type="date" class="emai" id="fecha_realizar">
 			        </div>
    				</div> <br>
 
    				<label class="ema">Agrega tu tarea:</label><br>
-				    <textarea id="areac" class="emai"  name="agregar_tarea" rows="" cols="" placeholder="Escríbe tu tarea breve" required/></textarea><br>
+				    <textarea id="areac" class="emai"  id="agregar_tarea" rows="" cols="" placeholder="Escríbe tu tarea breve"></textarea><br>
 				    <!-- <input  id="enviar2" class="enviar" type="submit" value="AGREGAR"> -->
 				    <!-- <button>Hover Me</button> -->
-				    <button class="button" style="vertical-align:middle"><span>Agregar</span></button>
+				    <button class="button" style="vertical-align:middle" onClick="goReg()"><span>Agregar</span></button>
 
 			</form>
 
@@ -147,8 +151,10 @@
 
 	<!-- <a href="?view=logout">Cerrar Sesion</a> -->
 
+	<script src="views/app/js/goReg.js"></script>
 	<script src="views/app/js/jquery.js"></script>
 	<script src="views/app/js/reloj.js"></script>
+
     <!-- <script src="views/app/js/main.js"></script> -->
 </body>
 </html>

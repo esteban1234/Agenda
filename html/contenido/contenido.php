@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>Lista de tareas</title>
+    <meta charset="UTF-8">
+    <title>Lista de tareas</title>
 
 <link rel="stylesheet" href="views/app/css/estiloss.css">
 <link rel="stylesheet" href="views/app/fonts/style.css">
 <link href="https://fonts.googleapis.com/css?family=Oswald|Roboto" rel="stylesheet">
 </head>
 
-	<body>
+    <body>
 
 <article class="panel">
 
  <article class="panelizquierda">
-	<!-- <figure class="contienelogo">
+    <!-- <figure class="contienelogo">
         <img class="logo" src="views/app/images/logo.png" alt="">
     </figure> -->
     <article class="ppanel">
@@ -24,71 +24,71 @@
   </article>
 
    <article class="panelderecha">
-	<div class="wrap">
-			<div class="widget">
-				<div class="fecha">
-					<p id="diaSemana" class="diaSemana">Martes</p>
-					<p id="dia" class="dia">27</p>
-					<p>de </p>
-					<p id="mes" class="mes">Octubre</p>
-					<p>del </p>
-					<p id="year" class="year">2015</p>
-				</div>
+    <div class="wrap">
+            <div class="widget">
+                <div class="fecha">
+                    <p id="diaSemana" class="diaSemana">Martes</p>
+                    <p id="dia" class="dia">27</p>
+                    <p>de </p>
+                    <p id="mes" class="mes">Octubre</p>
+                    <p>del </p>
+                    <p id="year" class="year">2015</p>
+                </div>
 
-				<div class="reloj">
-					<p id="horas" class="horas">11</p>
-					<p>:</p>
-					<p id="minutos" class="minutos">48</p>
-					<p>:</p>
-					<div class="caja-segundos">
-						<p id="ampm" class="ampm">AM</p>
-						<p id="segundos" class="segundos">12</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</article>
-	</article>
+                <div class="reloj">
+                    <p id="horas" class="horas">11</p>
+                    <p>:</p>
+                    <p id="minutos" class="minutos">48</p>
+                    <p>:</p>
+                    <div class="caja-segundos">
+                        <p id="ampm" class="ampm">AM</p>
+                        <p id="segundos" class="segundos">12</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+    </article>
 
-	<article class="contenedor">
+    <article class="contenedor">
 
-	<article class="menu">
+    <article class="menu">
 
-		<nav>
-			<ul>
-				<li><a href="#"><span class="icon-list"></span>Menú</a></li>
-		</nav>
+        <nav>
+            <ul>
+                <li><a href="#"><span class="icon-list"></span>Menú</a></li>
+        </nav>
 
-	</article>
+    </article>
 
-		<article class="contpanel">
+        <article class="contpanel">
 
-			<article class="contpanelizqui">
-			 <div class="">
+            <article class="contpanelizqui">
+             <div class="">
           <p class="bienid">Bienvenido <strong><?=$users[$_SESSION['app_id']]['user']?></strong></p>
         </div>
 
-				<ul id="accordion" class="accordion">
-					<li>
-					 <li class="link"><a href="?view=index"><i class="icon-new-message"></i>Agregar una Tarea</a><!-- <i class="icon-chevron-down"></i> --></li>
-					</li>
+                <ul id="accordion" class="accordion">
+                    <li>
+                     <li class="link"><a href="?view=index"><i class="icon-new-message"></i>Agregar una Tarea</a><!-- <i class="icon-chevron-down"></i> --></li>
+                    </li>
 
-					<li>
-					 <li class="link"><a href="?view=lista"><i class="icon-add-to-list"></i>Lista de Tareas</a><!-- <i class="icon-chevron-down"></i> --></li>
-					</li>
-					<li>
-					 <li class="link"><a href="?view=logout"><i class="icon-lock"></i>Cerrar Sesion</a><!-- <i class="icon-chevron-down"></i> --></li>
-					</li>
-	            </ul>
+                    <li>
+                     <li class="link"><a href="?view=lista"><i class="icon-add-to-list"></i>Lista de Tareas</a><!-- <i class="icon-chevron-down"></i> --></li>
+                    </li>
+                    <li>
+                     <li class="link"><a href="?view=logout"><i class="icon-lock"></i>Cerrar Sesion</a><!-- <i class="icon-chevron-down"></i> --></li>
+                    </li>
+                </ul>
 
-			</article>
+            </article>
 
-			<article class="contpaneldere">
+            <article class="contpaneldere">
 
-			<form class="formdos" 	action="" method="POST">
-				<h1 class="agregal">Lista de tareas</h1>
+            <form class="formdos"   action="" method="POST">
+                <h1 class="agregal">Lista de tareas</h1>
 
-				 <table>
+                 <table>
             <thead>
                 <tr>
                     <th>
@@ -129,7 +129,7 @@
                         Revisar las correciones del sistema quantto
                     </td>
                     <td>
-                        modificar / eliminar
+                        eliminar
                     </td>
                 </tr>
                 <tr>
@@ -149,7 +149,7 @@
                         Revisar los formatos de los contratos de los clientes
                     </td>
                     <td>
-                        modificar / eliminar
+                        eliminar
                     </td>
                 </tr>
             </tbody>
@@ -158,21 +158,21 @@
 
 
 
-			</form>
+            </form>
 
 
 
-			</article>
+            </article>
 
-		</article>
+        </article>
 
 
-	</article>
+    </article>
 
-	<!-- <a href="?view=logout">Cerrar Sesion</a> -->
+    <!-- <a href="?view=logout">Cerrar Sesion</a> -->
 
-	<script src="views/app/js/jquery.js"></script>
-	<script src="views/app/js/reloj.js"></script>
+    <script src="views/app/js/jquery.js"></script>
+    <script src="views/app/js/reloj.js"></script>
     <!-- <script src="views/app/js/main.js"></script> -->
 </body>
 
