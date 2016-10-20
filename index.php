@@ -1,6 +1,6 @@
-<?php  
+<?php
 	require('core/core.php');
-	// echo Encrypt('123456');
+	// echo Encrypt('1234567');
 	// $_SESSION['app_id'];
 
 	if(isset($_GET['view'])){
@@ -10,7 +10,7 @@
 		}
 		else{
 			include('core/controllers/errorController.php');
-		}	 
+		}
 	}
 
 	else{
