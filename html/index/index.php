@@ -14,10 +14,10 @@
 <article class="panel">
 
  <article class="panelizquierda">
-	<figure class="contienelogo">
+	<!-- <figure class="contienelogo">
         <img class="logo" src="views/app/images/logo.png" alt="">
 
-    </figure>
+    </figure> -->
     <article class="ppanel">
        <!-- <p class="ppanel3">Quantto</p> -->
         <p class="ppanel2">Agenda de Tareas</p>
