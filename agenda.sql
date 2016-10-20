@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 18-10-2016 a las 21:46:53
+-- Tiempo de generación: 21-10-2016 a las 00:37:18
 -- Versión del servidor: 10.1.16-MariaDB
 -- Versión de PHP: 5.6.24
 
@@ -64,7 +64,8 @@ INSERT INTO `usuario` (`id`, `usuario`, `contrasena`) VALUES
 -- Indices de la tabla `agregar`
 --
 ALTER TABLE `agregar`
-  ADD PRIMARY KEY (`id`);
+  ADD PRIMARY KEY (`id`),
+  ADD UNIQUE KEY `hora_realizarla` (`hora_realizarla`);
 
 --
 -- Indices de la tabla `usuario`
