@@ -90,7 +90,9 @@
 			<article class="contpaneldere">
 
 			<form class="formuno" 	action="" method="POST" onsubmit="return false;">
-				<div id="_AJAX_REG_"></div><br><br>
+				<div id="cont-reg">
+					<div id="_AJAX_REG_"></div>
+				</div><br><br>
 				<h1 class="agrega">Agrega una nueva tarea</h1>
 				<div class="dos">
 						<label class="ema">Fecha</label><br>
