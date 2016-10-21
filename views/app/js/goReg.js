@@ -4,7 +4,7 @@ function goReg(){
 	hora_r = __('hora_realizarla').value;
 	fec_alt = __('fecha_alta').value;
 	fec_rea = __('fecha_realizar').value;
-	addTarea = __('agregar_tarea').value;
+	addTarea = $('#agregar_tarea').val();
 
 	
 	// sesion = __('session_login').checked ? true : false;
@@ -22,10 +22,9 @@ function goReg(){
 					__('_AJAX_REG_').innerHTML = connect.responseText;
 				}
 			}
-			else if (connect.readyState != 4){
-				// LimpiarCampos();
-				window.location.reload();
-			}
+			//else if (connect.readyState != 4){
+				//window.location.reload();
+			//}
 	}
 
 	connect.open('POST','ajax.php?mode=registro',true);
@@ -38,7 +37,7 @@ function goReg(){
 		result = '<div class="alert alert-dismissible alert-danger">';
             	result +='<h4>Error!</h4>';
             	result +='<p><strong> Todos los campos deben estar llenos</strong></p>';
-        		result +='</div>';	
+        		result +='</div>';
         		__('_AJAX_REG_').innerHTML = result;
 	}
 }

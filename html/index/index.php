@@ -15,7 +15,7 @@
 
  <article class="panelizquierda">
 	<figure class="contienelogo">
-        <img class="logo" src="views/app/images/logo.png" alt="">
+        <!-- <img class="logo" src="views/app/images/logo.png" alt=""> -->
 
     </figure>
     <article class="ppanel">
@@ -85,7 +85,7 @@
 
 			<article class="contpaneldere">
 
-			<form class="formuno" 	action="" method="POST">
+			<form class="formuno" 	action="" method="POST" onsubmit="return false;">
 				<div id="_AJAX_REG_"></div><br><br>
 				<h1 class="agrega">Agrega una nueva tarea</h1>
 				<div class="dos">
@@ -98,7 +98,6 @@
 			        <div class="izq">
 			            <label class="ema">Asunto:</label><br>
 			            <!-- <input class="emai" type="select" name="correo" size="30" maxlength="40" placeholder= "ejemplo@correo.com" required/> -->
-			            <!-- viejo, a que hora sakes? -->
 			            <input class="emai" id="asunto" placeholder="Escoja su Asunto"  list="listaasunto">
 
 						<datalist id="listaasunto">

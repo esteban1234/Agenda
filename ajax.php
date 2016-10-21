@@ -7,6 +7,10 @@ if ($_POST) {
             require 'core/bin/ajax/goSesion.php';
             break;
 
+        case 'registro':
+            require 'core/bin/ajax/goRegistroTarea.php';
+            break;
+
         default:
             header('location: ?view=admin');
             // include('core/controllers/sesionController.php');
