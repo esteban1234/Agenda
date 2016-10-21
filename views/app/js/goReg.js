@@ -15,6 +15,7 @@ function goReg(){
 			if(connect.readyState == 4 && connect.status == 200){
 				if (connect.responseText == 1){
 					location.reload();
+					//LimpiarCampos();
 				}
 				else{
 					$('#_AJAX_REG_').fadeIn(500);
@@ -22,9 +23,9 @@ function goReg(){
 					setTimeout(deleteMSJ,4000);
 				}
 			}
-			//else if (connect.readyState != 4){
-			//window.location.reload();
-			//}
+			else if (connect.readyState != 4){
+				LimpiarCampos();
+			}
 		}
 
 		connect.open('POST','ajax.php?mode=registro',true);
@@ -48,6 +49,13 @@ function deleteMSJ() {
 	$('#_AJAX_REG_').fadeOut(1500);
 }
 
-
+function LimpiarCampos()
+{
+	__('asunto').value = "";
+	__('hora_realizarla').value = "";
+	__('fecha_alta').value = "";
+	__('fecha_realizar').value = "";
+	__('agregar_tarea').innerHTML = "";
+}
 
 

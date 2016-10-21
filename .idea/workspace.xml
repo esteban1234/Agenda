@@ -4,7 +4,6 @@
     <list default="true" id="e10518b2-c227-4c13-9b11-71bd6277a0b0" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/bin/ajax/goRegistroTarea.php" afterPath="$PROJECT_DIR$/core/bin/ajax/goRegistroTarea.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/index/index.php" afterPath="$PROJECT_DIR$/html/index/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/app/js/goReg.js" afterPath="$PROJECT_DIR$/views/app/js/goReg.js" />
     </list>
     <ignored path="Agenda.iws" />
@@ -29,8 +28,8 @@
       <file leaf-file-name="goReg.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/app/js/goReg.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="714">
-              <caret line="42" column="34" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
+            <state relative-caret-position="358">
+              <caret line="54" column="37" selection-start-line="54" selection-start-column="37" selection-end-line="54" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -39,16 +38,16 @@
       <file leaf-file-name="goRegistroTarea.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/bin/ajax/goRegistroTarea.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+            <state relative-caret-position="221">
+              <caret line="13" column="90" selection-start-line="13" selection-start-column="90" selection-end-line="13" selection-end-column="90" />
               <folding>
-                <marker date="1477090164625" expanded="true" signature="506:688" ph="INSERT INTO agregar... " />
-                <marker date="1477090164625" expanded="true" signature="777:960" ph="..." />
-                <marker date="1477090164625" expanded="true" signature="854:861" ph="×" />
-                <marker date="1477090164625" expanded="true" signature="1043:1223" ph="..." />
-                <marker date="1477090164625" expanded="true" signature="1120:1127" ph="×" />
-                <marker date="1477090164625" expanded="true" signature="1334:1554" ph="..." />
-                <marker date="1477090164625" expanded="true" signature="1436:1443" ph="×" />
+                <marker date="1477090669148" expanded="true" signature="506:682" ph="INSERT INTO agregar... " />
+                <marker date="1477090669148" expanded="true" signature="771:954" ph="..." />
+                <marker date="1477090669148" expanded="true" signature="848:855" ph="×" />
+                <marker date="1477090669148" expanded="true" signature="1037:1217" ph="..." />
+                <marker date="1477090669148" expanded="true" signature="1114:1121" ph="×" />
+                <marker date="1477090669148" expanded="true" signature="1328:1548" ph="..." />
+                <marker date="1477090669148" expanded="true" signature="1430:1437" ph="×" />
               </folding>
             </state>
           </provider>
@@ -300,15 +299,15 @@
       <updated>1476978799720</updated>
       <workItem from="1476978801267" duration="6000" />
       <workItem from="1476978860996" duration="10037000" />
-      <workItem from="1477060834058" duration="13013000" />
+      <workItem from="1477060834058" duration="14140000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23056000" />
+    <option name="totallyTimeSpent" value="24183000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19472913" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -375,7 +374,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1477089934481" expanded="true" signature="206:286" ph="SELECT id FR... usuario" />
+            <marker date="1477090228002" expanded="true" signature="206:286" ph="SELECT id FR... usuario" />
           </folding>
         </state>
       </provider>
@@ -406,24 +405,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/core/bin/ajax/goRegistroTarea.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+        <state relative-caret-position="221">
+          <caret line="13" column="90" selection-start-line="13" selection-start-column="90" selection-end-line="13" selection-end-column="90" />
           <folding>
-            <marker date="1477090164625" expanded="true" signature="506:688" ph="INSERT INTO agregar... " />
-            <marker date="1477090164625" expanded="true" signature="777:960" ph="..." />
-            <marker date="1477090164625" expanded="true" signature="854:861" ph="×" />
-            <marker date="1477090164625" expanded="true" signature="1043:1223" ph="..." />
-            <marker date="1477090164625" expanded="true" signature="1120:1127" ph="×" />
-            <marker date="1477090164625" expanded="true" signature="1334:1554" ph="..." />
-            <marker date="1477090164625" expanded="true" signature="1436:1443" ph="×" />
+            <marker date="1477090669148" expanded="true" signature="506:682" ph="INSERT INTO agregar... " />
+            <marker date="1477090669148" expanded="true" signature="771:954" ph="..." />
+            <marker date="1477090669148" expanded="true" signature="848:855" ph="×" />
+            <marker date="1477090669148" expanded="true" signature="1037:1217" ph="..." />
+            <marker date="1477090669148" expanded="true" signature="1114:1121" ph="×" />
+            <marker date="1477090669148" expanded="true" signature="1328:1548" ph="..." />
+            <marker date="1477090669148" expanded="true" signature="1430:1437" ph="×" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/app/js/goReg.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="42" column="34" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
+        <state relative-caret-position="358">
+          <caret line="54" column="37" selection-start-line="54" selection-start-column="37" selection-end-line="54" selection-end-column="37" />
           <folding />
         </state>
       </provider>

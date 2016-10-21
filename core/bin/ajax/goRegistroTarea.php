@@ -11,7 +11,7 @@
 
 
     $sql = $db->query("INSERT INTO agregar(asunto,hora_realizarla,fecha_alta,fecha_realizar,agregar_tarea)
-            VALUES ('$asunto','$hora_realizarla','$fecha_alta','$fecha_realizar','$agregar_tarea')");
+            VALUES ('$asunto','$hora_realizarla','$fecha_alta','$fecha_realizar','$agregar')");
 
 
     if ($sql) {
