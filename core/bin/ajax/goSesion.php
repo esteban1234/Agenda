@@ -10,13 +10,13 @@ if (!empty($_POST['user']) and !empty($_POST['pass'])) {
         echo 1;
     } else {
         echo '
-	               	<strong>Error Credenciales Incorrectos</strong><br/>
-	             	';
+                    <strong>Error Credenciales Incorrectos</strong><br/>
+                    ';
     }
     $db->liberar($sql);
     $db->close();
 } else {
     echo '
-	              <strong>Error Campos vacios</strong><br/>
-	            ';
+                  <strong>Error Campos vacios</strong><br/>
+                ';
 }

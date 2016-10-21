@@ -13,7 +13,8 @@
         background-color: #4a7c59;
     }
     
-    .panelizquierda, .panelderecha {
+    .panelizquierda,
+    .panelderecha {
         display: inline-block;
         vertical-align: top;
     }
@@ -65,7 +66,8 @@
         display: inline-block;
     }
     
-    .reloj .segundos, .reloj .ampm {
+    .reloj .segundos,
+    .reloj .ampm {
         font-size: 2rem;
         display: block;
     }
@@ -130,7 +132,8 @@
         height: 480px;
     }
     
-    .contpanelizqui, .contpaneldere {
+    .contpanelizqui,
+    .contpaneldere {
         display: inline-block;
         vertical-align: top;
     }
@@ -218,7 +221,7 @@
         /*border: 2px green solid;*/
         width: 60%;
         margin: 0 auto;
-        margin-top: 3%;
+        margin-top: 1%;
     }
     
     .agrega {
@@ -277,7 +280,8 @@
         padding-left: 5px;
     }
     
-    .der, .izq {
+    .der,
+    .izq {
         display: inline-block;
         vertical-align: top;
     }
@@ -364,7 +368,7 @@
         font-family: 'Roboto', sans-serif;
         font-size: 25px;
         margin-bottom: 5%;
-        margin-top: 5%;
+        margin-top: 3%;
     }
     /*-----------tabla--------------------*/
     
@@ -385,7 +389,8 @@
         text-align: center;
     }
     
-    td, th {
+    td,
+    th {
         padding: 6px;
         border: 1px solid #ccc;
     }
@@ -406,8 +411,14 @@
         text-align: center;
     }
     
-    @media only screen and (max-width: 760px), (min-device-width: 768px) and (max-device-width: 1024px) {
-        table, thead, tbody, th, td, tr {
+    @media only screen and (max-width: 760px),
+    (min-device-width: 768px) and (max-device-width: 1024px) {
+        table,
+        thead,
+        tbody,
+        th,
+        td,
+        tr {
             display: block;
         }
         thead tr {
@@ -479,4 +490,39 @@
     
     strong {
         color: #f4511e;
+    }
+    
+    .alert {
+        padding: 15px;
+        margin-bottom: 20px;
+        border: 1px solid transparent;
+        border-radius: 4px;
+        /*border: 2px red solid;*/
+    }
+    
+    .alert-dismissable .close,
+    .alert-dismissible .close {
+        position: relative;
+        top: -2px;
+        right: -21px;
+        color: inherit;
+    }
+    
+    .close {
+        position: relative;
+        top: -2px;
+        right: -21px;
+        color: inherit;
+    }
+    
+    .alert-success {
+        color: #3c763d;
+        background-color: #dff0d8;
+        border-color: #d6e9c6;
+    }
+    
+    .alert-danger {
+        color: #a94442;
+        background-color: #f2dede;
+        border-color: #ebccd1;
     }

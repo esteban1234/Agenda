@@ -4,9 +4,12 @@
 	<meta charset="UTF-8">
 <title>Agregar Tarea</title>
 <link rel="stylesheet" href="views/app/css/estiloss.css">
+<!-- <link rel="stylesheet" href="views/app/css/jquery-ui.min.css"> -->
 <link rel="stylesheet" href="views/app/fonts/style.css">
+<!-- <link rel="stylesheet" href="views/bootstrap/css/bootstrap.css"> -->
 <link href="https://fonts.googleapis.com/css?family=Oswald|Roboto" rel="stylesheet">
 <script src="views/app/js/generales.js"></script>
+<!-- <script src="views/bootstrap/js/bootstrap.min.js"></script> -->
 </head>
 <body>
 
@@ -18,10 +21,10 @@
         <img class="logo" src="views/app/images/logo.png" alt="">
 
 	<figure class="contienelogo">
-        <!-- <img class="logo" src="views/app/images/logo.png" alt=""> -->
+        <img class="logo" src="views/app/images/logo.png" alt="">
 
 
-    </figure> -->
+     </figure> -->
     <article class="ppanel">
        <!-- <p class="ppanel3">Quantto</p> -->
         <p class="ppanel2">Agenda de Tareas</p>
@@ -90,10 +93,10 @@
 			<article class="contpaneldere">
 
 			<form class="formuno" 	action="" method="POST" onsubmit="return false;">
-				<div id="_AJAX_REG_"></div><br><br>
+				<div id="_AJAX_REG_"></div><br>
 				<h1 class="agrega">Agrega una nueva tarea</h1>
 				<div class="dos">
-						<label class="ema">Fecha</label><br>
+						<!-- <label class="ema">Fecha</label><br> -->
 
 
 			    </div>
