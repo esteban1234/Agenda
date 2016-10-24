@@ -56,7 +56,7 @@ function LimpiarCampos()
 	__('hora_realizarla').value = "";
 	__('fecha_alta').value = "";
 	__('fecha_realizar').value = "";
-	__('agregar_tarea').innerHTML = "";
+	__('agregar_tarea').value = "";
 }
 
 
