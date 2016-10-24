@@ -4,7 +4,8 @@ function goReg(){
 	hora_r = __('hora_realizarla').value;
 	fec_alt = __('fecha_alta').value;
 	fec_rea = __('fecha_realizar').value;
-	addTarea = $('textarea#agregar_tarea').val();
+	addTarea = __('agregar_tarea').value;
+	//$('textarea[name=myTextArea]').val()
 
 
 	if (asunto != '' && hora_r != '' && fec_alt !='' && fec_rea !='' && addTarea !=''){

@@ -143,7 +143,7 @@
    				</div> <br>
 
    				<label class="ema">Agrega tu tarea:</label><br>
-				    <textarea id="areac" class="emai"  id="agregar_tarea" rows="" cols="" placeholder="Escríbe tu tarea breve"></textarea><br>
+				    <textarea class="emai"  id="agregar_tarea" rows="" cols="" placeholder="Escríbe tu tarea breve"></textarea><br>
 				    <!-- <input  id="enviar2" class="enviar" type="submit" value="AGREGAR"> -->
 				    <!-- <button>Hover Me</button> -->
 				    <button class="button" style="vertical-align:middle" onClick="goReg()"><span>Agregar</span></button>
