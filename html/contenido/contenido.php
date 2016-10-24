@@ -5,6 +5,7 @@
     <title>Lista de tareas</title>
 
 <link rel="stylesheet" href="views/app/css/estiloss.css">
+<!-- <link rel="stylesheet" href="views/app/css/font-awesome.css"> -->
 <link rel="stylesheet" href="views/app/fonts/style.css">
 <link href="https://fonts.googleapis.com/css?family=Oswald|Roboto" rel="stylesheet">
 </head>
@@ -129,7 +130,8 @@
                         Revisar las correciones del sistema quantto
                     </td>
                     <td>
-                        eliminar
+                        <a class="btn btn-danger" href="#">
+                        <i class="icon-trash"></i>&nbsp;Eliminar</a>
                     </td>
                 </tr>
                 <tr>
@@ -149,7 +151,8 @@
                         Revisar los formatos de los contratos de los clientes
                     </td>
                     <td>
-                        eliminar
+                        <a class="btn btn-danger" href="#">
+                        <i class="icon-trash"></i>&nbsp;Eliminar</a>
                     </td>
                 </tr>
             </tbody>
