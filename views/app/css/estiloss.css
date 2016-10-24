@@ -380,18 +380,6 @@
         min-height: none;
     }
     
-    thead {
-        /*background: #FF7361;*/
-        /*
-text-align: center;*/
-        z-index: 2;
-    }
-    /*tbody {
-        height: calc(30vh - 1px);
-        min-height: calc(100px + 1 px);
-        overflow-Y: scroll;
-    }*/
-    
     tr:nth-of-type(odd) {
         background: #eee;
     }
@@ -449,6 +437,15 @@ text-align: center;*/
             position: relative;
             padding-left: 50%;
         }
+        td:nth-child(2n) {
+            text-align: left;
+        }
+        td:nth-child(3n) {
+            text-align: left;
+        }
+        td:nth-child(4n) {
+            text-align: left;
+        }
         td:before {
             position: absolute;
             top: 6px;
@@ -474,7 +471,7 @@ text-align: center;*/
             content: "Tarea";
         }
         td:nth-of-type(6):before {
-            content: "Asunto";
+            content: "Acciones";
         }
         /*td:nth-of-type(6):before {
             content: "Porn Name";
