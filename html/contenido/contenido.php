@@ -89,7 +89,33 @@
             <form class="formdos"   action="" method="POST">
                 <h1 class="agregal">Lista de tareas</h1>
 
-                 <table>
+                <?php
+$db  = new Conexion();
+$sql = $db->query("SELECT * FROM agregar;");
+echo "<table><thead>
+                        <tr>
+                          <th>Asunto</th>
+                          <th>Hora a Realizar</th>
+                          <th>Fecha de alta</th>
+                          <th>Fecha a realizar</th>
+                          <th>Tarea</th>
+                          <th>Acciones</th>
+                        </tr></thead><tbody>";
+while ($row = $db->runs($sql)) {
+
+    echo "<tr>
+                  <td>" . $row['asunto'] . "</td>
+                  <td>" . $row['hora_realizarla'] . "</td>
+                  <td>" . $row['fecha_alta'] . "</td>
+                  <td>" . $row['fecha_realizar'] . "</td>
+                  <td>" . $row['agregar_tarea'] . "</td>
+                  <td>" . '<a class="btn btn-danger" href="#"><i class="icon-trash"></i>&nbsp;Eliminar</a>' . "</td></tr>";
+
+}
+echo "</tbody></table>";
+?>
+
+                 <!-- <table>
             <thead>
                 <tr>
                     <th>
@@ -157,7 +183,7 @@
                 </tr>
             </tbody>
         </table>
-
+ -->
 
 
 
