@@ -109,12 +109,13 @@ while ($row = $db->runs($sql)) {
                   <td>" . $row['fecha_alta'] . "</td>
                   <td>" . $row['fecha_realizar'] . "</td>
                   <td>" . $row['agregar_tarea'] . "</td>
-                  <td>" . '<a class="btn btn-danger" href="#"><i class="icon-trash"></i>&nbsp;Eliminar</a>' . "</td></tr>";
+                  <td>" . '<a class="btn btn-danger" href="ajax.php?mode=opciones"><i class="icon-trash"></i>&nbsp;Eliminar</a>' . "</td></tr>";
 
 }
 echo "</tbody></table>";
 ?>
-
+<!-- oye we una pregunta cada tarea quese agena tiene un id? si we
+esta en la bd we , ok, ya vi -->
                  <!-- <table>
             <thead>
                 <tr>
