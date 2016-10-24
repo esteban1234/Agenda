@@ -11,6 +11,10 @@ if ($_POST) {
             require 'core/bin/ajax/goRegistroTarea.php';
             break;
 
+        case 'opciones':
+            require 'core/models/class.Opciones.php';
+            break;
+
         default:
             header('location: ?view=admin');
             // include('core/controllers/sesionController.php');
@@ -19,4 +23,5 @@ if ($_POST) {
 } else {
     header('location: ?view=admin');
     // include('core/controllers/sesionController.php');
+    // mira we, vamos a trata de implementar una clase, para que esa nos sirva para actualiza, eliminar, y para otras cosas
 }

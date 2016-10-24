@@ -376,7 +376,21 @@
         /*border: 2px red solid;*/
         width: 100%;
         border-collapse: collapse;
+        height: auto;
+        min-height: none;
     }
+    
+    thead {
+        /*background: #FF7361;*/
+        /*
+text-align: center;*/
+        z-index: 2;
+    }
+    /*tbody {
+        height: calc(30vh - 1px);
+        min-height: calc(100px + 1 px);
+        overflow-Y: scroll;
+    }*/
     
     tr:nth-of-type(odd) {
         background: #eee;
