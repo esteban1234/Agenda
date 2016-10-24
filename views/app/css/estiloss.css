@@ -306,13 +306,13 @@
         overflow: hidden;
     }
     
-    #areac {
+    #agregar_tarea {
         width: 94.5%;
         border-radius: 5px;
         box-sizing: border-box;
     }
     
-    #areac:focus {
+    #agregar_tarea:focus {
         height: 150px;
     }
     
