@@ -17,7 +17,7 @@
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="myModalLabel">- Eliminar Producto</h4>
+                <h4 class="modal-title" id="myModalLabel">- Eliminar Tarea</h4>
             </div> <!-- Cierra modal-header-->
             <div class="modal-body">
                 <p>Realmente Deseas Borar?</p>
@@ -126,9 +126,9 @@
                     </tr></thead>
                     <tbody id="refresca">
                 <?php
-                    $getsTAREAS = new Opciones();
-                    echo $lista  = $getsTAREAS->getTAREA();
-                ?>
+$getsTAREAS = new Opciones();
+echo $lista = $getsTAREAS->getTAREA();
+?>
                     </tbody>
                 </table>
 <!-- oye we una pregunta cada tarea quese agena tiene un id? si we
