@@ -21,11 +21,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="goReg.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="goReg.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/app/js/goReg.js">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="255">
               <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+=======
+            <state relative-caret-position="272">
+              <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+>>>>>>> santy
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+<<<<<<< HEAD
+      <file leaf-file-name="contenido.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/contenido/contenido.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5">
+              <caret line="114" column="16" selection-start-line="114" selection-start-column="16" selection-end-line="114" selection-end-column="16" />
+              <folding />
+=======
+      <file leaf-file-name="goRESULTADO.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/views/app/js/goRESULTADO.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -34,9 +57,13 @@
       <file leaf-file-name="contenido.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/contenido/contenido.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5">
-              <caret line="114" column="16" selection-start-line="114" selection-start-column="16" selection-end-line="114" selection-end-column="16" />
-              <folding />
+            <state relative-caret-position="311">
+              <caret line="132" column="16" selection-start-line="132" selection-start-column="16" selection-end-line="132" selection-end-column="16" />
+              <folding>
+                <element signature="e#810#817#0#HTML" expanded="true" />
+                <marker date="1477431944884" expanded="true" signature="5042:6217" ph="..." />
+              </folding>
+>>>>>>> santy
             </state>
           </provider>
         </entry>
@@ -46,6 +73,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
               <caret line="96" column="16" selection-start-line="96" selection-start-column="16" selection-end-line="96" selection-end-column="47" />
+<<<<<<< HEAD
               <folding />
             </state>
           </provider>
@@ -56,12 +84,61 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
               <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+=======
+>>>>>>> santy
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="goOPCIONES.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/bin/ajax/goOPCIONES.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="291">
+              <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+              <folding>
+                <marker date="1477433913955" expanded="true" signature="246:281" ph="DELETE FROM " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="class.Opciones.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/models/class.Opciones.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="57" selection-start-line="18" selection-start-column="57" selection-end-line="18" selection-end-column="57" />
+              <folding>
+                <marker date="1477434148135" expanded="true" signature="212:233" ph="SELECT * FRO... agregar" />
+                <marker date="1477434148135" expanded="true" signature="347:371" ph="..." />
+                <marker date="1477434148135" expanded="true" signature="347:379" ph="..." />
+                <marker date="1477434148135" expanded="true" signature="347:421" ph="..." />
+                <marker date="1477434148135" expanded="true" signature="347:425" ph="..." />
+                <marker date="1477434148135" expanded="true" signature="347:480" ph="..." />
+                <marker date="1477434148135" expanded="true" signature="347:484" ph="..." />
+                <marker date="1477434148135" expanded="true" signature="347:534" ph="..." />
+                <marker date="1477434148135" expanded="true" signature="347:538" ph="..." />
+                <marker date="1477434148135" expanded="true" signature="347:592" ph="..." />
+                <marker date="1477434148135" expanded="true" signature="347:596" ph="..." />
+                <marker date="1477434148135" expanded="true" signature="347:626" ph="..." />
+                <marker date="1477434148135" expanded="true" signature="347:840" ph="..." />
+                <marker date="1477434148135" expanded="true" signature="347:849" ph="..." />
+                <marker date="1477434148135" expanded="true" signature="648:839" ph="..." />
+                <marker date="1477434148135" expanded="true" signature="1063:1069" ph=" " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -70,10 +147,16 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/ajax.php" />
         <option value="$PROJECT_DIR$/core/bin/ajax/goRegistroTarea.php" />
         <option value="$PROJECT_DIR$/html/index/index.php" />
+        <option value="$PROJECT_DIR$/core/core.php" />
+        <option value="$PROJECT_DIR$/views/app/js/goRESULTADO.js.ts" />
         <option value="$PROJECT_DIR$/views/app/js/goReg.js" />
+        <option value="$PROJECT_DIR$/ajax.php" />
+        <option value="$PROJECT_DIR$/html/contenido/contenido.php" />
+        <option value="$PROJECT_DIR$/core/bin/ajax/goOPCIONES.php" />
+        <option value="$PROJECT_DIR$/core/models/class.Opciones.php" />
+        <option value="$PROJECT_DIR$/views/app/js/goRESULTADO.js" />
       </list>
     </option>
   </component>
@@ -290,15 +373,23 @@
       <workItem from="1476978801267" duration="6000" />
       <workItem from="1476978860996" duration="10037000" />
       <workItem from="1477060834058" duration="15362000" />
-      <workItem from="1477332578857" duration="461000" />
+      <workItem from="1477332578857" duration="9963000" />
+      <workItem from="1477411157518" duration="7916000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="25871000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="24" y="6" width="1378" height="744" extended-state="0" />
+=======
+    <option name="totallyTimeSpent" value="43284000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="24" y="6" width="1378" height="744" extended-state="1" />
+>>>>>>> santy
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19456682" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -364,6 +455,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/html/contenido/contenido.php">
+<<<<<<< HEAD
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
@@ -485,17 +577,22 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
+=======
+>>>>>>> santy
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#810#817#0#HTML" expanded="true" />
+            <marker date="1477431944884" expanded="true" signature="5042:6217" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/core.php">
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+        <state relative-caret-position="272">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -504,6 +601,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -524,10 +622,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/core/bin/ajax/goRegistroTarea.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding>
+            <marker date="1477333175107" expanded="true" signature="501:677" ph="INSERT INTO agregar... " />
+            <marker date="1477333175107" expanded="true" signature="765:857" ph="..." />
+            <marker date="1477333175107" expanded="true" signature="940:1029" ph="..." />
+            <marker date="1477333175107" expanded="true" signature="1130:1234" ph="..." />
+            <marker date="1477333175107" expanded="true" signature="1132:1234" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/app/js/goRESULTADO.js.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ajax.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        <state relative-caret-position="238">
+          <caret line="14" column="49" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/core.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
           <folding />
         </state>
       </provider>
@@ -540,18 +668,75 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/bin/ajax/goRegistroTarea.php">
+    <entry file="file://$PROJECT_DIR$/html/contenido/contenido.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="493">
           <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
           <folding />
+=======
+        <state relative-caret-position="311">
+          <caret line="132" column="16" selection-start-line="132" selection-start-column="16" selection-end-line="132" selection-end-column="16" />
+          <folding>
+            <element signature="e#810#817#0#HTML" expanded="true" />
+            <marker date="1477431944884" expanded="true" signature="5042:6217" ph="..." />
+          </folding>
+>>>>>>> santy
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/app/js/goReg.js">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="255">
           <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+=======
+        <state relative-caret-position="272">
+          <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/bin/ajax/goOPCIONES.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+          <folding>
+            <marker date="1477433913955" expanded="true" signature="246:281" ph="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/models/class.Opciones.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="57" selection-start-line="18" selection-start-column="57" selection-end-line="18" selection-end-column="57" />
+          <folding>
+            <marker date="1477434148135" expanded="true" signature="212:233" ph="SELECT * FRO... agregar" />
+            <marker date="1477434148135" expanded="true" signature="347:371" ph="..." />
+            <marker date="1477434148135" expanded="true" signature="347:379" ph="..." />
+            <marker date="1477434148135" expanded="true" signature="347:421" ph="..." />
+            <marker date="1477434148135" expanded="true" signature="347:425" ph="..." />
+            <marker date="1477434148135" expanded="true" signature="347:480" ph="..." />
+            <marker date="1477434148135" expanded="true" signature="347:484" ph="..." />
+            <marker date="1477434148135" expanded="true" signature="347:534" ph="..." />
+            <marker date="1477434148135" expanded="true" signature="347:538" ph="..." />
+            <marker date="1477434148135" expanded="true" signature="347:592" ph="..." />
+            <marker date="1477434148135" expanded="true" signature="347:596" ph="..." />
+            <marker date="1477434148135" expanded="true" signature="347:626" ph="..." />
+            <marker date="1477434148135" expanded="true" signature="347:840" ph="..." />
+            <marker date="1477434148135" expanded="true" signature="347:849" ph="..." />
+            <marker date="1477434148135" expanded="true" signature="648:839" ph="..." />
+            <marker date="1477434148135" expanded="true" signature="1063:1069" ph=" " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/app/js/goRESULTADO.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+>>>>>>> santy
           <folding />
         </state>
       </provider>

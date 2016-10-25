@@ -12,7 +12,7 @@ if ($_POST) {
             break;
 
         case 'opciones':
-            require 'core/models/class.Opciones.php';
+            require 'core/bin/ajax/goOPCIONES.php';
             break;
 
         default:

@@ -1,4 +1,5 @@
-
+var accion = 'nada';
+var idUSER = 0;
 function goReg(){
 	var connect, form, result, asunto, hora_r, fec_alt, fec_rea, addTarea;
 	asunto = __('asunto').value;
