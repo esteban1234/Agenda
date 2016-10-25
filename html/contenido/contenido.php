@@ -91,7 +91,7 @@
 
                 <?php
 $db  = new Conexion();
-$sql = $db->query("SELECT * FROM agregar;");
+$sql = $db->query("SELECT * FROM agregar LIMIT 6;");
 echo "<table><thead>
                         <tr>
                           <th>Asunto</th>
@@ -114,8 +114,7 @@ while ($row = $db->runs($sql)) {
 }
 echo "</tbody></table>";
 ?>
-<!-- oye we una pregunta cada tarea quese agena tiene un id? si we
-esta en la bd we , ok, ya vi -->
+
                  <!-- <table>
             <thead>
                 <tr>
