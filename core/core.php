@@ -18,6 +18,7 @@ define('APP_TITLE', 'Agenda');
 
 #ESTRUCTURA
 require 'core/models/class.Conexion.php';
+require('core/models/class.Opciones.php');
 require 'core/bin/functions/Encrypt.php';
 require 'core/bin/functions/users.php';
 
