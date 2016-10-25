@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e10518b2-c227-4c13-9b11-71bd6277a0b0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/bin/ajax/goOPCIONES.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/app/js/goRESULTADO.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ajax.php" afterPath="$PROJECT_DIR$/ajax.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/core.php" afterPath="$PROJECT_DIR$/core/core.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/models/class.Opciones.php" afterPath="$PROJECT_DIR$/core/models/class.Opciones.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/contenido/contenido.php" afterPath="$PROJECT_DIR$/html/contenido/contenido.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/app/js/goReg.js" afterPath="$PROJECT_DIR$/views/app/js/goReg.js" />
-    </list>
+    <list default="true" id="e10518b2-c227-4c13-9b11-71bd6277a0b0" name="Default" comment="" />
     <ignored path="Agenda.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -356,15 +347,15 @@
       <workItem from="1476978860996" duration="10037000" />
       <workItem from="1477060834058" duration="15362000" />
       <workItem from="1477332578857" duration="9963000" />
-      <workItem from="1477411157518" duration="7678000" />
+      <workItem from="1477411157518" duration="7916000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43046000" />
+    <option name="totallyTimeSpent" value="43284000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="24" y="6" width="1378" height="744" extended-state="0" />
+    <frame x="24" y="6" width="1378" height="744" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19456682" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
