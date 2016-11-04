@@ -126,9 +126,9 @@
                     </tr></thead>
                     <tbody id="refresca">
                 <?php
-$getsTAREAS = new Opciones();
-echo $lista = $getsTAREAS->getTAREA();
-?>
+                  $getsTAREAS = new Opciones();
+                  echo $lista = $getsTAREAS->getTAREA();
+                  ?>
                     </tbody>
                 </table>
 <!-- oye we una pregunta cada tarea quese agena tiene un id? si we
